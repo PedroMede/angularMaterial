@@ -1,0 +1,60 @@
+
+
+.mat-form-field {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.bg{
+  background-image: url("../../../assets/img/bg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: Segoe UI;
+  color: #707070;
+}
+
+button{
+  background-color: rgba(92, 95, 110, 0.2);
+  width: 168px;
+  height: 43px;
+  font-weight: 100;
+}
+a{
+  color: white;
+}
+
+mat-card{
+  background-color: rgba(66, 66, 78, 0.2);
+  border-radius: 15px;
+  width: 294px;
+  height: 340px;
+}
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  color:white;
+  font-size: 14px;
+  font-weight:100;
+}
+
+mat-card-title{
+  padding-bottom: 20px;
+}
+
+::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+  background-color: white;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: white ;
+}
+
